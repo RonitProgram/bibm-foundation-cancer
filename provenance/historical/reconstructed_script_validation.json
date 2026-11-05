@@ -1,0 +1,12 @@
+{
+  "python_scripts_parse": 12,
+  "embedding_input_output_mappings_checked": 8,
+  "literature_set1_first_3_rows_match_archived_input": true,
+  "literature_set2_first_3_rows_match_archived_input": true,
+  "hvg_function_checks": [
+    "HVG1000: selection function returns correct size and log2 transform on synthetic data",
+    "HVG10000: selection function returns correct size and log2 transform on synthetic data"
+  ],
+  "hvg_cli_run": "Blocked: scikit-learn is not installed in current Python environment",
+  "embedding_inference_executed": false
+}

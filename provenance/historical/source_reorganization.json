@@ -1,0 +1,55 @@
+{
+  "moves": [
+    {
+      "from": "notebooks/hvg.ipynb",
+      "to": "src/gene_input_creation/hvg.ipynb",
+      "sha256": "fc99495740c029a21744eef6c8f56e3795d277b1847bc68c4888d516c51dbb3e"
+    },
+    {
+      "from": "src/representations_original/litgenes.py",
+      "to": "src/gene_input_creation/litgenes.py",
+      "sha256": "16a931969177e85a6c69e09da1b7de3b885e036f6ddf50ab77e71ccc774c1992"
+    },
+    {
+      "from": "notebooks/literature_signature_inspection.ipynb",
+      "to": "src/gene_input_creation/literature_signature_inspection.ipynb",
+      "sha256": "daaeacb8597094785879b2ee7ad01754e525271f588e3c595c61a4536ea372f4"
+    },
+    {
+      "from": "notebooks/literature_signature_inspection_NOTE.txt",
+      "to": "src/gene_input_creation/literature_signature_inspection_NOTE.txt",
+      "sha256": "965d8a9934dff02e3603ba5405d1e25d2d5d94e20ae821a6f037239ff228b14d"
+    },
+    {
+      "from": "src/representations_original/litgenesbformer.py",
+      "to": "src/embedding_creation/litgenesbformer.py",
+      "sha256": "d9e99e00cd0b01421d33fea177e2f40d02a87041832290901cb8299bae93fef4"
+    },
+    {
+      "from": "src/representations_original/litgenesbformer2.py",
+      "to": "src/embedding_creation/litgenesbformer2.py",
+      "sha256": "4ecdc5d2806a1af28a50a54c6f0f4f6000765039d405548a18ba0a75baa11733"
+    },
+    {
+      "from": "src/representations_original/brnabert.py",
+      "to": "src/embedding_creation/brnabert.py",
+      "sha256": "4939c94d410ad49a971b6cf865516027d8524932d0ccf54022cff9836b8cba04"
+    },
+    {
+      "from": "src/evaluation_original/brcaeval_hvg1000.py",
+      "to": "src/embedding_evaluation/brcaeval_hvg1000.py",
+      "sha256": "1ecf8f59a315e5cef22c85b862c50f1a55642b6876e7d78987a00838ca2e3bc1"
+    },
+    {
+      "from": "src/evaluation_original/brcaeval_hvg10000.py",
+      "to": "src/embedding_evaluation/brcaeval_hvg10000.py",
+      "sha256": "0b1cc628ec5a972df4b91e1d1dee92e936d034e0b7e9a503deb01f5838524ed7"
+    },
+    {
+      "from": "src/evaluation_original/brcaeval_litgenes.py",
+      "to": "src/embedding_evaluation/brcaeval_litgenes.py",
+      "sha256": "6467b1696fdd1fa07f9ae50f3a694cc5f21f243ac9913abc0b8f1144821f1316"
+    }
+  ],
+  "code_contents_unchanged": true
+}

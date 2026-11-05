@@ -1,0 +1,570 @@
+[
+  {
+    "source": "classification.ipynb",
+    "destination": "notebooks/classification.ipynb",
+    "role": "baseline outputs and preprocessing / HVG reference",
+    "status": "copied",
+    "bytes": 636014,
+    "sha256": "ba68c3775c056216598bf38f7816ca6a9821b098fd9ae467abc07cdac6400ed1"
+  },
+  {
+    "source": "hvg.ipynb",
+    "destination": "src/gene_input_creation/hvg.ipynb",
+    "role": "baseline outputs and preprocessing / HVG reference",
+    "status": "copied",
+    "bytes": 798263,
+    "sha256": "fc99495740c029a21744eef6c8f56e3795d277b1847bc68c4888d516c51dbb3e"
+  },
+  {
+    "source": "brcaeval_hvg1000.py",
+    "destination": "src/embedding_evaluation/brcaeval_hvg1000.py",
+    "role": "available evaluation version; historical variants missing",
+    "status": "copied",
+    "bytes": 10440,
+    "sha256": "1ecf8f59a315e5cef22c85b862c50f1a55642b6876e7d78987a00838ca2e3bc1"
+  },
+  {
+    "source": "brcaeval_hvg10000.py",
+    "destination": "src/embedding_evaluation/brcaeval_hvg10000.py",
+    "role": "available evaluation version; historical variants missing",
+    "status": "copied",
+    "bytes": 10443,
+    "sha256": "0b1cc628ec5a972df4b91e1d1dee92e936d034e0b7e9a503deb01f5838524ed7"
+  },
+  {
+    "source": "brcaeval_litgenes.py",
+    "destination": "src/embedding_evaluation/brcaeval_litgenes.py",
+    "role": "available evaluation version; historical variants missing",
+    "status": "copied",
+    "bytes": 8791,
+    "sha256": "6467b1696fdd1fa07f9ae50f3a694cc5f21f243ac9913abc0b8f1144821f1316"
+  },
+  {
+    "source": "litgenes.py",
+    "destination": "src/gene_input_creation/litgenes.py",
+    "role": "available representation/gene-list generation source",
+    "status": "copied",
+    "bytes": 904,
+    "sha256": "16a931969177e85a6c69e09da1b7de3b885e036f6ddf50ab77e71ccc774c1992"
+  },
+  {
+    "source": "litgenesbformer.py",
+    "destination": "src/embedding_creation/litgenesbformer.py",
+    "role": "available representation/gene-list generation source",
+    "status": "copied",
+    "bytes": 16196,
+    "sha256": "d9e99e00cd0b01421d33fea177e2f40d02a87041832290901cb8299bae93fef4"
+  },
+  {
+    "source": "litgenesbformer2.py",
+    "destination": "src/embedding_creation/litgenesbformer2.py",
+    "role": "available representation/gene-list generation source",
+    "status": "copied",
+    "bytes": 16199,
+    "sha256": "4ecdc5d2806a1af28a50a54c6f0f4f6000765039d405548a18ba0a75baa11733"
+  },
+  {
+    "source": "brnabert.py",
+    "destination": "src/embedding_creation/brnabert.py",
+    "role": "available representation/gene-list generation source",
+    "status": "copied",
+    "bytes": 6731,
+    "sha256": "4939c94d410ad49a971b6cf865516027d8524932d0ccf54022cff9836b8cba04"
+  },
+  {
+    "source": "build_grouped_results.py",
+    "destination": "src/results/build_grouped_results.py",
+    "role": "confirmed report and notebook to metrics-table builder",
+    "status": "copied",
+    "bytes": 12099,
+    "sha256": "7a7fdab6b7a4d3558f7f9da3e05e64fce6f0955cce0e3a0c06dd66588177f43a"
+  },
+  {
+    "source": "brcaresults/brcaresults_hvg1000.txt",
+    "destination": "results/raw_reports/brcaresults_hvg1000.txt",
+    "role": "confirmed figure metric source",
+    "status": "copied",
+    "bytes": 6515,
+    "sha256": "6d58270da18c87108ab3fd48480dafe465bbdc2be64c64581364d4fc0a40289f"
+  },
+  {
+    "source": "brcaresults/brcaresults_hvg1k156.txt",
+    "destination": "results/raw_reports/brcaresults_hvg1k156.txt",
+    "role": "confirmed figure metric source",
+    "status": "copied",
+    "bytes": 6446,
+    "sha256": "f81577a81f5b7c4bb040b4d05f0b60ec7110e3ade11a82b35768aecb7f5056f8"
+  },
+  {
+    "source": "brcaresults/brcaresults_hvg1k312.txt",
+    "destination": "results/raw_reports/brcaresults_hvg1k312.txt",
+    "role": "confirmed figure metric source",
+    "status": "copied",
+    "bytes": 6446,
+    "sha256": "fa41e0825d10c04637586e91a154fe10f692f886476447db5ff186bcfe988687"
+  },
+  {
+    "source": "brcaresults/brcaresults_hvg10000.txt",
+    "destination": "results/raw_reports/brcaresults_hvg10000.txt",
+    "role": "confirmed figure metric source",
+    "status": "copied",
+    "bytes": 6462,
+    "sha256": "a1d756f1c3b8d3e4254e3a62af106dbda0d02c3a636aecea7ee5b9c86185c91b"
+  },
+  {
+    "source": "brcaresults/brcaresults_hvg10k156.txt",
+    "destination": "results/raw_reports/brcaresults_hvg10k156.txt",
+    "role": "confirmed figure metric source",
+    "status": "copied",
+    "bytes": 6423,
+    "sha256": "a483fc343fb13242ff48b13384479decb043e2bacd296e19e02579d0434c2c8e"
+  },
+  {
+    "source": "brcaresults/brcaresults_hvg10k312.txt",
+    "destination": "results/raw_reports/brcaresults_hvg10k312.txt",
+    "role": "confirmed figure metric source",
+    "status": "copied",
+    "bytes": 6438,
+    "sha256": "c330e4db76efb9057cbd3172f65fba7f0fa52d85b72875103dc3b19486a9ea5e"
+  },
+  {
+    "source": "brcaresults/brcaresults_litgenes.txt",
+    "destination": "results/raw_reports/brcaresults_litgenes.txt",
+    "role": "confirmed figure metric source",
+    "status": "copied",
+    "bytes": 6605,
+    "sha256": "a0a329f1cd367e061cc3c1f99f1cbad329ccf8bd60c4b4874ff365872b9043f0"
+  },
+  {
+    "source": "brcaresults/brcaresults_litgenes2.txt",
+    "destination": "results/raw_reports/brcaresults_litgenes2.txt",
+    "role": "confirmed figure metric source",
+    "status": "copied",
+    "bytes": 6594,
+    "sha256": "e4a40115f34d99b6ba5093ef4c48ff966cff21e347affe224b6942cdf5649801"
+  },
+  {
+    "source": "blresults\\figure2_breast_combined_cross_validation_metrics.png",
+    "destination": "figures/original/figure2_breast_combined_cross_validation_metrics.png",
+    "role": "requested original BRCA figure / key",
+    "status": "copied",
+    "bytes": 649889,
+    "sha256": "7b4986347562b67ce4b0a4f95049435da9474e37522d41b592195d989dff9dd0"
+  },
+  {
+    "source": "blresults\\figure2_breast_combined_cross_validation_metrics_feature_selection_key.png",
+    "destination": "figures/original/figure2_breast_combined_cross_validation_metrics_feature_selection_key.png",
+    "role": "requested original BRCA figure / key",
+    "status": "copied",
+    "bytes": 327197,
+    "sha256": "f0b7a00a9ac282ff2740c7f0142a32e465c562ae54068ad535ad9b7eab36049b"
+  },
+  {
+    "source": "breaststuff/X.csv",
+    "destination": "data/expression/X.csv",
+    "role": "expression, labels, initial gene inputs, or curated mapping",
+    "status": "copied",
+    "bytes": 366336650,
+    "sha256": "f48635a5a051481ae07f2ce61817c8c8802597c169987fa7ca9950c0d8661789"
+  },
+  {
+    "source": "breaststuff/yiv.csv",
+    "destination": "data/expression/yiv.csv",
+    "role": "expression, labels, initial gene inputs, or curated mapping",
+    "status": "copied",
+    "bytes": 4206,
+    "sha256": "73ab1ce88e67aaef3f979fe586df91026e4e95a7424f556657d1945736639907"
+  },
+  {
+    "source": "breaststuff/X_hvg_1000.csv",
+    "destination": "data/expression/X_hvg_1000.csv",
+    "role": "expression, labels, initial gene inputs, or curated mapping",
+    "status": "copied",
+    "bytes": 18991264,
+    "sha256": "bd37ab2b9efbf1dd12cb777444d854098d90ec37e78578ecf79ed5d4fea9d2e5"
+  },
+  {
+    "source": "breaststuff/X_hvg_10000.csv",
+    "destination": "data/expression/X_hvg_10000.csv",
+    "role": "expression, labels, initial gene inputs, or curated mapping",
+    "status": "copied",
+    "bytes": 190284640,
+    "sha256": "d9b4ca3f939fa52ec2212469f1decfc7b822c4396ed25f5a23a1e1cdec526d24"
+  },
+  {
+    "source": "breaststuff/X_litgenes.csv",
+    "destination": "data/expression/X_litgenes.csv",
+    "role": "expression, labels, initial gene inputs, or curated mapping",
+    "status": "copied",
+    "bytes": 1296453,
+    "sha256": "396113f73ef497482d2e97a5c0f3a7560723893c80b2c5b8b1199015dd25148e"
+  },
+  {
+    "source": "breaststuff/X_litgenes2.csv",
+    "destination": "data/expression/X_litgenes2.csv",
+    "role": "expression, labels, initial gene inputs, or curated mapping",
+    "status": "copied",
+    "bytes": 1097675,
+    "sha256": "7d3e87054d4c0fc9ee72cf0de8766d31746c528104021450fd0dddfb6eae12e3"
+  },
+  {
+    "source": "breaststuff/gProfiler_hsapiens_2026-07-30_17-08-56.csv",
+    "destination": "data/expression/gProfiler_hsapiens_2026-07-30_17-08-56.csv",
+    "role": "expression, labels, initial gene inputs, or curated mapping",
+    "status": "copied",
+    "bytes": 23775,
+    "sha256": "72cb3e764bfcdddc835da9b7faa33ad2326ff6ea53dbf81e6cf88db90b4c3c7a"
+  },
+  {
+    "source": "selected_features.txt",
+    "destination": "data/selection/selected_features.txt",
+    "role": "baseline selection counts; original notebook lookup path differs",
+    "status": "copied",
+    "bytes": 83694,
+    "sha256": "8d42b2490a749aeb41307a7a197aa6b9ee624fab3b499098d25f7419ef2e08b2"
+  },
+  {
+    "source": "pone.0126631.s001.xlsx",
+    "destination": "data/literature/pone.0126631.s001.xlsx",
+    "role": "Zhao signature supplement",
+    "status": "copied",
+    "bytes": 35067,
+    "sha256": "9e1b6043e3e41285658ee8cff5fec1cb810d2c86a0fa05f80e462a436ffe3f11"
+  },
+  {
+    "source": "breaststuff/hvg1000.npy",
+    "destination": "",
+    "role": "evaluation embedding array",
+    "status": "incomplete_not_copied",
+    "bytes": 4130340864,
+    "expected_bytes": 5998544792
+  },
+  {
+    "source": "breaststuff/hvg10000.npy",
+    "destination": "",
+    "role": "evaluation embedding array",
+    "status": "incomplete_not_copied",
+    "bytes": 4128243712,
+    "expected_bytes": 58489852748
+  },
+  {
+    "source": "breaststuff/litgenesbrca.npy",
+    "destination": "data/embeddings/breaststuff/litgenesbrca.npy",
+    "role": "evaluation embedding array",
+    "status": "copied",
+    "bytes": 1261149680,
+    "sha256": "db102bef8f7125731121a1abe53416217703b724d53311bc36b38f50dd5e2993"
+  },
+  {
+    "source": "bertstuff/hvg1000bert.npy",
+    "destination": "data/embeddings/bertstuff/hvg1000bert.npy",
+    "role": "evaluation embedding array",
+    "status": "copied",
+    "bytes": 199908736,
+    "sha256": "53e1b736fed8d2d67e438aa3bf56f8e616c79099411e8b8ba1c0c1f1b4a9fcd9"
+  },
+  {
+    "source": "bertstuff/hvg10000bert.npy",
+    "destination": "data/embeddings/bertstuff/hvg10000bert.npy",
+    "role": "evaluation embedding array",
+    "status": "copied",
+    "bytes": 1910566784,
+    "sha256": "9fb31217c132ed8f74579e753b400f2dfef34cab0f70303368ff18ca6abe404c"
+  },
+  {
+    "source": "bertstuff/litgenesbert.npy",
+    "destination": "data/embeddings/bertstuff/litgenesbert.npy",
+    "role": "evaluation embedding array",
+    "status": "copied",
+    "bytes": 39282304,
+    "sha256": "9582d258a9dc94ff65c72ed5bac970b3b655ca209cebcd084aec02361c68825f"
+  },
+  {
+    "source": "litgenesbrca2.npy",
+    "destination": "data/embeddings/litgenesbrca2.npy",
+    "role": "evaluation embedding array",
+    "status": "copied",
+    "bytes": 1099463840,
+    "sha256": "b90e7dfd10b2f34a329c160c3702344a2534e94bf6670c68e7868cc8921c44d3"
+  },
+  {
+    "source": "litgenesbert2.npy",
+    "destination": "data/embeddings/litgenesbert2.npy",
+    "role": "evaluation embedding array",
+    "status": "copied",
+    "bytes": 36860800,
+    "sha256": "89696f4ab26188f7a5b076d14f4c176531677e2f7e016533658f70cc6bd1966f"
+  },
+  {
+    "source": "BulkFormer_37M.pt",
+    "destination": "data/model_assets/BulkFormer_37M.pt",
+    "role": "BulkFormer generation dependency",
+    "status": "copied",
+    "bytes": 53500146,
+    "sha256": "fec4e493d00737467da7e5fbef3c7a5a779c3e0da9111b15d711b9bd9ce08bae"
+  },
+  {
+    "source": "G_tcga.pt",
+    "destination": "data/model_assets/G_tcga.pt",
+    "role": "BulkFormer generation dependency",
+    "status": "copied",
+    "bytes": 5276395,
+    "sha256": "f37103436e56798ad542bf9d336a23335c4d780b9fed7cbb422ac9c3b00a12e1"
+  },
+  {
+    "source": "G_tcga_weight.pt",
+    "destination": "data/model_assets/G_tcga_weight.pt",
+    "role": "BulkFormer generation dependency",
+    "status": "copied",
+    "bytes": 1319659,
+    "sha256": "32ca5904aaa3ffb432256fd46e54d30f6e26f747135c091a460ace6352195cd2"
+  },
+  {
+    "source": "esm2_feature_concat (1).pt",
+    "destination": "data/model_assets/esm2_feature_concat (1).pt",
+    "role": "BulkFormer generation dependency",
+    "status": "copied",
+    "bytes": 102452440,
+    "sha256": "4994b7757b52aa9e56264e2cbae7035715972614e080e19e95064df039450a36"
+  },
+  {
+    "source": "bulkformer_gene_info (1).csv",
+    "destination": "data/model_assets/bulkformer_gene_info (1).csv",
+    "role": "BulkFormer generation dependency",
+    "status": "copied",
+    "bytes": 12835716,
+    "sha256": "0ac27c1adfb3cb2548ae37ddbbac221a4aefd5ae79e7950ec13c56e0d9e5ab68"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\bulkformer.yaml",
+    "destination": "third_party/BulkFormer\\bulkformer.yaml",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 5104,
+    "sha256": "5e7f8040d7ef6a42d53841d5d2ef359a7b0c29e3ecf758a70c81e50318193155"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\LICENSE",
+    "destination": "third_party/BulkFormer\\LICENSE",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 1068,
+    "sha256": "b955f944f27e0e350a35312d9838db9b57b1542d8ef3a4c2b77b1a131cbeccaf"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\README.md",
+    "destination": "third_party/BulkFormer\\README.md",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 7547,
+    "sha256": "e57b496e9e77733b1d5a434d79512c9de22b2f0ffb7fdb5160a459bf9e2e9910"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\data\\bulkformer_gene_info.csv",
+    "destination": "third_party/BulkFormer\\data\\bulkformer_gene_info.csv",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 12835716,
+    "sha256": "0ac27c1adfb3cb2548ae37ddbbac221a4aefd5ae79e7950ec13c56e0d9e5ab68"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\data\\gene_length_df.csv",
+    "destination": "third_party/BulkFormer\\data\\gene_length_df.csv",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 1619547,
+    "sha256": "40d74e065b9cbd3e427eef62729737f0dc29ef5ab273af5479bd806c175673bf"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\data\\README.md",
+    "destination": "third_party/BulkFormer\\data\\README.md",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 819,
+    "sha256": "1fe5465e68d1bdab69446804a58b47f780e3d5f3bacf59954d951b0537a07a06"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\model\\config.py",
+    "destination": "third_party/BulkFormer\\model\\config.py",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 960,
+    "sha256": "34376d3062e725cb6479a00ce162b142ff9b13d2dc2e4d7814a0b0d1f6992a54"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\model\\README.md",
+    "destination": "third_party/BulkFormer\\model\\README.md",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 1424,
+    "sha256": "2991384a239e17c2db5a699f70854d6cbc3160bf7a515a3ad752b166b10965ca"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\utils\\BulkFormer.py",
+    "destination": "third_party/BulkFormer\\utils\\BulkFormer.py",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 4777,
+    "sha256": "bb1778c38c6548f5b6eb0bfe995e45ee982245ac1fdafab370f93d5a1c6e25ea"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\utils\\BulkFormer_block.py",
+    "destination": "third_party/BulkFormer\\utils\\BulkFormer_block.py",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 1624,
+    "sha256": "da4c500344963f39ac076a805a9b3067093b7a67707f6652f1daf0c43be7bd56"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\utils\\README.md",
+    "destination": "third_party/BulkFormer\\utils\\README.md",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "source": "BulkFormer\\BulkFormer\\utils\\Rope.py",
+    "destination": "third_party/BulkFormer\\utils\\Rope.py",
+    "role": "BulkFormer implementation and vocabulary",
+    "status": "copied",
+    "bytes": 623,
+    "sha256": "51e493bf011f28b91cb52f9fe1f18f5c3e4d1c12ef63e5bc400fe637b2f02f63"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\config.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\config.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 3271,
+    "sha256": "8b15030380350b20a689031ab7c9513887ebf00cb06f98efd4432307164e3046"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\layers.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\layers.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 1896,
+    "sha256": "5e70e4d89b6ed81329541c6be76fd5dbf9cd4078850a0b15536785f0c5ccf227"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\model.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\model.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 6415,
+    "sha256": "31825537e7fa2a7862826bc9d04b43b6d69937c15dfac5d9f34ce22f33340226"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\preprocess.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\preprocess.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 5139,
+    "sha256": "e255042cacb6cdb13ca9f1bc3656831eaf61543747003ad9736c0fdaf51af33c"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\pretrained.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\pretrained.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 3338,
+    "sha256": "91bafab3b7d642fea37ff56c9feafd440b8231eeb891b306091fe7fda788ed36"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\__init__.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\__init__.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\common\\config.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\common\\config.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 1040,
+    "sha256": "2cd7828bc08af7489ac7a8c8df1133c2af10dc05831ef0cabded36d854ed851e"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\common\\layers.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\common\\layers.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 18859,
+    "sha256": "c84cd78a5d337f2d7be2094d6f8af90bede817e2161fe35bdf64a2737eadb338"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\common\\preprocess.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\common\\preprocess.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 1390,
+    "sha256": "8de156e044069ae75be79fdc2e1e97c1053c014f51efe25337384b02645f78fd"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\common\\tokenizer.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\common\\tokenizer.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 7171,
+    "sha256": "e0ce8b424898b0155489979e005d5fc534ab1a29452b84d32837c90ea15c57ce"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\common\\type_defs.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\common\\type_defs.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 834,
+    "sha256": "45120c6060ff76ea4843c5d628233a9c6fc01619de99261bd7db9f66bc6b9846"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\common\\utils.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\common\\utils.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 1546,
+    "sha256": "de065e85fff0da3759615df50fd84d5010b6f0beb1ec33c0b8339e3515013685"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\common\\__init__.py",
+    "destination": "third_party/multiomics-open-research\\multiomics_open_research\\common\\__init__.py",
+    "role": "BulkRNABert implementation dependency",
+    "status": "copied",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "multiomics-open-research\\multiomics_open_research\\__init__.py",
+    "destination": "third_party/multiomics-open-research/multiomics_open_research/__init__.py",
+    "role": "BulkRNABert package metadata / vocabulary",
+    "status": "copied",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "multiomics-open-research\\data\\bulkrnabert\\common_gene_id.txt",
+    "destination": "third_party/multiomics-open-research/data/bulkrnabert/common_gene_id.txt",
+    "role": "BulkRNABert package metadata / vocabulary",
+    "status": "copied",
+    "bytes": 304992,
+    "sha256": "ce44c2b58a3577878f43aa00fa4d940a090d678bd007f1dbd27ecb58c63d7ec5"
+  },
+  {
+    "source": "multiomics-open-research\\setup.py",
+    "destination": "third_party/multiomics-open-research/setup.py",
+    "role": "BulkRNABert package metadata / vocabulary",
+    "status": "copied",
+    "bytes": 1565,
+    "sha256": "a014cc11e39a3db2ed2c2d74c0c66bd9b6a1cb825d889b9253751cdaa76e14ab"
+  },
+  {
+    "source": "multiomics-open-research\\README.md",
+    "destination": "third_party/multiomics-open-research/README.md",
+    "role": "BulkRNABert package metadata / vocabulary",
+    "status": "copied",
+    "bytes": 6746,
+    "sha256": "c875dbb022466dd81ebe66af303e9d44d9d8fdbb8f36c408ff03d774696403fc"
+  }
+]

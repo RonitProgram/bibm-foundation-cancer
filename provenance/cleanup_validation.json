@@ -1,0 +1,10 @@
+{
+  "source_files_parse": 19,
+  "embedding_cli_checks": 8,
+  "rebuilt_table_rows_match": 68,
+  "plots_pixel_identical": {
+    "figure2_breast_combined_cross_validation_metrics.png": true,
+    "figure2_breast_combined_cross_validation_metrics_feature_selection_key.png": true
+  },
+  "model_inference_and_training_run": false
+}

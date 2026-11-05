@@ -1,0 +1,60 @@
+BRCA HVG1000 Evaluation Results
+================================================================================
+
+Datatype: bulkformer_hvg1000
+--------------------------------------------------------------------------------
+Cross-Validation Mean Metrics by Model
+              Model  Accuracy  Precision   Recall  Specificity       F1  ROC AUC   PR AUC  Balanced Accuracy      MCC    TN  FP  FN  TP
+         Linear SVM  0.976190   0.440000 0.600000     0.983030 0.472308 0.936970 0.567821           0.791515 0.484560 162.2 2.8 1.2 1.8
+Logistic Regression  0.972619   0.509524 0.733333     0.976970 0.548049 0.938586 0.451010           0.855152 0.571371 161.2 3.8 0.8 2.2
+      Random Forest  0.982143   0.000000 0.000000     1.000000 0.000000 0.833939 0.450789           0.500000 0.000000 165.0 0.0 3.0 0.0
+      SGDClassifier  0.969048   0.370000 0.666667     0.974545 0.447599 0.927273 0.341148           0.820606 0.468726 160.8 4.2 1.0 2.0
+
+Held-Out Test Metrics by Model
+                     Accuracy Precision Recall Specificity   F1   ROC AUC    PR AUC Balanced Accuracy       MCC     Confusion Matrix   TN  FP FN TP
+Logistic Regression  0.909953       0.0    0.0    0.927536  0.0  0.463768  0.021253          0.463768 -0.038456  [[192, 15], [4, 0]]  192  15  4  0
+Random Forest        0.981043       0.0    0.0         1.0  0.0  0.591787  0.035748               0.5       0.0   [[207, 0], [4, 0]]  207   0  4  0
+SGDClassifier        0.905213       0.0    0.0    0.922705  0.0   0.44686  0.018957          0.461353 -0.039819  [[191, 16], [4, 0]]  191  16  4  0
+Linear SVM           0.819905       0.0    0.0    0.835749  0.0  0.437198  0.019993          0.417874 -0.060925  [[173, 34], [4, 0]]  173  34  4  0
+
+Datatype: bulkrnabert_hvg1000
+--------------------------------------------------------------------------------
+Cross-Validation Mean Metrics by Model
+              Model  Accuracy  Precision  Recall  Specificity   F1  ROC AUC   PR AUC  Balanced Accuracy      MCC    TN  FP  FN  TP
+         Linear SVM  1.000000       1.00     1.0     1.000000 1.00 1.000000 1.000000           1.000000 1.000000 165.0 0.0 0.0 3.0
+Logistic Regression  1.000000       1.00     1.0     1.000000 1.00 1.000000 1.000000           1.000000 1.000000 165.0 0.0 0.0 3.0
+      Random Forest  0.982143       0.00     0.0     1.000000 0.00 0.802626 0.283266           0.500000 0.000000 165.0 0.0 3.0 0.0
+      SGDClassifier  0.986905       0.62     1.0     0.986667 0.75 0.993939 0.640000           0.993333 0.774367 162.8 2.2 0.0 3.0
+
+Held-Out Test Metrics by Model
+                     Accuracy Precision Recall Specificity        F1   ROC AUC    PR AUC Balanced Accuracy       MCC     Confusion Matrix   TN   FP FN TP
+Logistic Regression  0.981043       0.0    0.0         1.0       0.0  0.800725  0.058721               0.5       0.0   [[207, 0], [4, 0]]  207    0  4  0
+Random Forest        0.981043       0.0    0.0         1.0       0.0  0.393116  0.016061               0.5       0.0   [[207, 0], [4, 0]]  207    0  4  0
+SGDClassifier        0.246445   0.02454    1.0    0.231884  0.047904  0.628019  0.025316          0.615942  0.075435  [[48, 159], [0, 4]]   48  159  0  4
+Linear SVM           0.981043       0.0    0.0         1.0       0.0  0.786232  0.052275               0.5       0.0   [[207, 0], [4, 0]]  207    0  4  0
+
+================================================================================
+Combined Tables
+================================================================================
+
+All CV Means (Datatype + Model)
+           Datatype               Model  Accuracy  Precision   Recall  Specificity       F1  ROC AUC   PR AUC  Balanced Accuracy      MCC    TN  FP  FN  TP
+ bulkformer_hvg1000          Linear SVM  0.976190   0.440000 0.600000     0.983030 0.472308 0.936970 0.567821           0.791515 0.484560 162.2 2.8 1.2 1.8
+ bulkformer_hvg1000 Logistic Regression  0.972619   0.509524 0.733333     0.976970 0.548049 0.938586 0.451010           0.855152 0.571371 161.2 3.8 0.8 2.2
+ bulkformer_hvg1000       Random Forest  0.982143   0.000000 0.000000     1.000000 0.000000 0.833939 0.450789           0.500000 0.000000 165.0 0.0 3.0 0.0
+ bulkformer_hvg1000       SGDClassifier  0.969048   0.370000 0.666667     0.974545 0.447599 0.927273 0.341148           0.820606 0.468726 160.8 4.2 1.0 2.0
+bulkrnabert_hvg1000          Linear SVM  1.000000   1.000000 1.000000     1.000000 1.000000 1.000000 1.000000           1.000000 1.000000 165.0 0.0 0.0 3.0
+bulkrnabert_hvg1000 Logistic Regression  1.000000   1.000000 1.000000     1.000000 1.000000 1.000000 1.000000           1.000000 1.000000 165.0 0.0 0.0 3.0
+bulkrnabert_hvg1000       Random Forest  0.982143   0.000000 0.000000     1.000000 0.000000 0.802626 0.283266           0.500000 0.000000 165.0 0.0 3.0 0.0
+bulkrnabert_hvg1000       SGDClassifier  0.986905   0.620000 1.000000     0.986667 0.750000 0.993939 0.640000           0.993333 0.774367 162.8 2.2 0.0 3.0
+
+All Test Results (Datatype + Model)
+           Datatype               Model  Accuracy Precision Recall Specificity        F1   ROC AUC    PR AUC Balanced Accuracy       MCC    Confusion Matrix  TN  FP FN TP
+ bulkformer_hvg1000 Logistic Regression  0.909953       0.0    0.0    0.927536       0.0  0.463768  0.021253          0.463768 -0.038456 [[192, 15], [4, 0]] 192  15  4  0
+ bulkformer_hvg1000       Random Forest  0.981043       0.0    0.0         1.0       0.0  0.591787  0.035748               0.5       0.0  [[207, 0], [4, 0]] 207   0  4  0
+ bulkformer_hvg1000       SGDClassifier  0.905213       0.0    0.0    0.922705       0.0   0.44686  0.018957          0.461353 -0.039819 [[191, 16], [4, 0]] 191  16  4  0
+ bulkformer_hvg1000          Linear SVM  0.819905       0.0    0.0    0.835749       0.0  0.437198  0.019993          0.417874 -0.060925 [[173, 34], [4, 0]] 173  34  4  0
+bulkrnabert_hvg1000 Logistic Regression  0.981043       0.0    0.0         1.0       0.0  0.800725  0.058721               0.5       0.0  [[207, 0], [4, 0]] 207   0  4  0
+bulkrnabert_hvg1000       Random Forest  0.981043       0.0    0.0         1.0       0.0  0.393116  0.016061               0.5       0.0  [[207, 0], [4, 0]] 207   0  4  0
+bulkrnabert_hvg1000       SGDClassifier  0.246445   0.02454    1.0    0.231884  0.047904  0.628019  0.025316          0.615942  0.075435 [[48, 159], [0, 4]]  48 159  0  4
+bulkrnabert_hvg1000          Linear SVM  0.981043       0.0    0.0         1.0       0.0  0.786232  0.052275               0.5       0.0  [[207, 0], [4, 0]] 207   0  4  0

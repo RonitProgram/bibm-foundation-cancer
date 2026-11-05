@@ -1,0 +1,34 @@
+{
+  "metric_table_matches_reparsed_saved_reports_and_notebook": true,
+  "rows_checked": 68,
+  "copied_files": 69,
+  "source_changes_during_copy": [],
+  "incomplete_arrays": [
+    "breaststuff/hvg1000.npy",
+    "breaststuff/hvg10000.npy"
+  ],
+  "figure_checks": {
+    "figure2_breast_combined_cross_validation_metrics.png": {
+      "original_size": [
+        9240,
+        5280
+      ],
+      "regenerated_size": [
+        9240,
+        5280
+      ],
+      "pixels_identical": true
+    },
+    "figure2_breast_combined_cross_validation_metrics_feature_selection_key.png": {
+      "original_size": [
+        1870,
+        5280
+      ],
+      "regenerated_size": [
+        1870,
+        5280
+      ],
+      "pixels_identical": true
+    }
+  }
+}

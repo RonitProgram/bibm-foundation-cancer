@@ -1,0 +1,11 @@
+# Reference imports, not a recovered version-locked environment.
+scikit-learn
+scipy
+tqdm
+openpyxl
+torch
+torch-geometric
+# BulkFormer additionally imports torch_sparse (install for matching torch/CUDA).
+jax
+dm-haiku
+performer-pytorch

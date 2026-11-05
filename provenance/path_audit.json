@@ -1,0 +1,135 @@
+{
+  "python_sources_parsed": [
+    "src\\check_paths.py",
+    "src\\pipeline_paths.py",
+    "src\\embedding_evaluation\\brcaeval_hvg1000.py",
+    "src\\embedding_evaluation\\brcaeval_hvg10000.py",
+    "src\\embedding_evaluation\\brcaeval_litgenes.py",
+    "src\\gene_input_creation\\create_litgenes1.py",
+    "src\\gene_input_creation\\create_litgenes2.py",
+    "src\\gene_input_creation\\hvg1000.py",
+    "src\\gene_input_creation\\hvg10000.py",
+    "src\\plotting\\reproduce_brca_figure.py",
+    "src\\results\\build_grouped_results.py",
+    "src\\embedding_creation\\bfstuff\\hvg10000bf.py",
+    "src\\embedding_creation\\bfstuff\\hvg1000bf.py",
+    "src\\embedding_creation\\bfstuff\\litgenes2bf.py",
+    "src\\embedding_creation\\bfstuff\\litgenesbf.py",
+    "src\\embedding_creation\\brnabertstuff\\hvg10000brnabert.py",
+    "src\\embedding_creation\\brnabertstuff\\hvg1000brnabert.py",
+    "src\\embedding_creation\\brnabertstuff\\litgenes2brnabert.py",
+    "src\\embedding_creation\\brnabertstuff\\litgenesbrnabert.py"
+  ],
+  "missing_required_small_inputs": [],
+  "archived_arrays": [
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\brca_reproducibility\\data\\embeddings\\bfstuff\\hvg1000.npy",
+      "status": "missing"
+    },
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\brca_reproducibility\\data\\embeddings\\bfstuff\\hvg10000.npy",
+      "status": "missing"
+    },
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\brca_reproducibility\\data\\embeddings\\bfstuff\\litgenesbrca.npy",
+      "shape": [
+        1051,
+        156,
+        1923
+      ],
+      "actual_bytes": 1261149680,
+      "expected_bytes": 1261149680,
+      "status": "complete"
+    },
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\brca_reproducibility\\data\\embeddings\\bfstuff\\litgenesbrca2.npy",
+      "shape": [
+        1051,
+        136,
+        1923
+      ],
+      "actual_bytes": 1099463840,
+      "expected_bytes": 1099463840,
+      "status": "complete"
+    },
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\brca_reproducibility\\data\\embeddings\\bertstuff\\hvg1000bert.npy",
+      "shape": [
+        1051,
+        743,
+        64
+      ],
+      "actual_bytes": 199908736,
+      "expected_bytes": 199908736,
+      "status": "complete"
+    },
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\brca_reproducibility\\data\\embeddings\\bertstuff\\hvg10000bert.npy",
+      "shape": [
+        1051,
+        7101,
+        64
+      ],
+      "actual_bytes": 1910566784,
+      "expected_bytes": 1910566784,
+      "status": "complete"
+    },
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\brca_reproducibility\\data\\embeddings\\bertstuff\\litgenesbert.npy",
+      "shape": [
+        1051,
+        146,
+        64
+      ],
+      "actual_bytes": 39282304,
+      "expected_bytes": 39282304,
+      "status": "complete"
+    },
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\brca_reproducibility\\data\\embeddings\\bertstuff\\litgenesbert2.npy",
+      "shape": [
+        1051,
+        137,
+        64
+      ],
+      "actual_bytes": 36860800,
+      "expected_bytes": 36860800,
+      "status": "complete"
+    }
+  ],
+  "external_arrays_not_copied": [
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\breaststuff\\hvg1000.npy",
+      "shape": [
+        1051,
+        742,
+        1923
+      ],
+      "actual_bytes": 5998544792,
+      "expected_bytes": 5998544792,
+      "status": "complete"
+    },
+    {
+      "path": "C:\\Users\\ronit\\Documents\\simonsvscodetransfer\\breaststuff\\hvg10000.npy",
+      "shape": [
+        1051,
+        7235,
+        1923
+      ],
+      "actual_bytes": 8170242048,
+      "expected_bytes": 58489852748,
+      "status": "incomplete"
+    }
+  ],
+  "packages_available": {
+    "numpy": true,
+    "pandas": true,
+    "matplotlib": true,
+    "sklearn": false,
+    "torch": true,
+    "jax": false,
+    "haiku": false
+  },
+  "legacy_hpc_paths_in_active_python": [],
+  "models_or_classifiers_executed": false
+}

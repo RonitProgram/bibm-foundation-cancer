@@ -1,0 +1,60 @@
+BRCA Litgenes Evaluation Results
+================================================================================
+
+Datatype: bulkformer_litgenes
+--------------------------------------------------------------------------------
+Cross-Validation Mean Metrics by Model
+              Model  Accuracy  Precision   Recall  Specificity       F1  ROC AUC   PR AUC  Balanced Accuracy      MCC    TN   FP  FN  TP
+         Linear SVM  0.933333   0.028571 0.066667     0.949091 0.040000 0.655354 0.075682           0.507879 0.014100 156.6  8.4 2.8 0.2
+Logistic Regression  0.903571   0.025000 0.133333     0.917576 0.042105 0.486263 0.020579           0.525455 0.020776 151.4 13.6 2.6 0.4
+      Random Forest  0.982143   0.000000 0.000000     1.000000 0.000000 0.616162 0.068861           0.500000 0.000000 165.0  0.0 3.0 0.0
+      SGDClassifier  0.759524   0.030121 0.400000     0.766061 0.055961 0.604646 0.025847           0.583030 0.051669 126.4 38.6 1.8 1.2
+
+Held-Out Test Metrics by Model
+                     Accuracy Precision Recall Specificity        F1   ROC AUC    PR AUC Balanced Accuracy       MCC     Confusion Matrix   TN  FP FN TP
+Logistic Regression  0.952607       0.0    0.0    0.971014       0.0  0.722222  0.039896          0.485507 -0.023782   [[201, 6], [4, 0]]  201   6  4  0
+Random Forest        0.981043       0.0    0.0         1.0       0.0  0.493961  0.042801               0.5       0.0   [[207, 0], [4, 0]]  207   0  4  0
+SGDClassifier        0.763033  0.057692   0.75    0.763285  0.107143  0.756643  0.048009          0.756643  0.162433  [[158, 49], [1, 3]]  158  49  1  3
+Linear SVM           0.677725  0.042857   0.75    0.676329  0.081081  0.792271  0.060697          0.713164  0.123481  [[140, 67], [1, 3]]  140  67  1  3
+
+Datatype: bulkrnabert_litgenes
+--------------------------------------------------------------------------------
+Cross-Validation Mean Metrics by Model
+              Model  Accuracy  Precision   Recall  Specificity       F1  ROC AUC   PR AUC  Balanced Accuracy      MCC    TN   FP  FN  TP
+         Linear SVM  0.883333   0.028313 0.200000     0.895758 0.049566 0.687677 0.046373           0.547879 0.035073 147.8 17.2 2.4 0.6
+Logistic Regression  0.880952   0.040055 0.266667     0.892121 0.069434 0.700606 0.052695           0.579394 0.063579 147.2 17.8 2.2 0.8
+      Random Forest  0.982143   0.000000 0.000000     1.000000 0.000000 0.530707 0.029725           0.500000 0.000000 165.0  0.0 3.0 0.0
+      SGDClassifier  0.630952   0.025173 0.533333     0.632727 0.048041 0.599798 0.023654           0.583030 0.044974 104.4 60.6 1.4 1.6
+
+Held-Out Test Metrics by Model
+                     Accuracy Precision Recall Specificity        F1   ROC AUC    PR AUC Balanced Accuracy       MCC     Confusion Matrix   TN   FP FN TP
+Logistic Regression  0.919431       0.0    0.0    0.937198       0.0  0.495169  0.023039          0.468599 -0.035619  [[194, 13], [4, 0]]  194   13  4  0
+Random Forest        0.981043       0.0    0.0         1.0       0.0  0.443841  0.019805               0.5       0.0   [[207, 0], [4, 0]]  207    0  4  0
+SGDClassifier        0.232227  0.012346    0.5    0.227053  0.024096   0.35628  0.015652          0.363527 -0.088153  [[47, 160], [2, 2]]   47  160  2  2
+Linear SVM           0.966825       0.0    0.0    0.985507       0.0  0.507246  0.023286          0.492754 -0.016695   [[204, 3], [4, 0]]  204    3  4  0
+
+================================================================================
+Combined Tables
+================================================================================
+
+All CV Means (Datatype + Model)
+            Datatype               Model  Accuracy  Precision   Recall  Specificity       F1  ROC AUC   PR AUC  Balanced Accuracy      MCC    TN   FP  FN  TP
+ bulkformer_litgenes          Linear SVM  0.933333   0.028571 0.066667     0.949091 0.040000 0.655354 0.075682           0.507879 0.014100 156.6  8.4 2.8 0.2
+ bulkformer_litgenes Logistic Regression  0.903571   0.025000 0.133333     0.917576 0.042105 0.486263 0.020579           0.525455 0.020776 151.4 13.6 2.6 0.4
+ bulkformer_litgenes       Random Forest  0.982143   0.000000 0.000000     1.000000 0.000000 0.616162 0.068861           0.500000 0.000000 165.0  0.0 3.0 0.0
+ bulkformer_litgenes       SGDClassifier  0.759524   0.030121 0.400000     0.766061 0.055961 0.604646 0.025847           0.583030 0.051669 126.4 38.6 1.8 1.2
+bulkrnabert_litgenes          Linear SVM  0.883333   0.028313 0.200000     0.895758 0.049566 0.687677 0.046373           0.547879 0.035073 147.8 17.2 2.4 0.6
+bulkrnabert_litgenes Logistic Regression  0.880952   0.040055 0.266667     0.892121 0.069434 0.700606 0.052695           0.579394 0.063579 147.2 17.8 2.2 0.8
+bulkrnabert_litgenes       Random Forest  0.982143   0.000000 0.000000     1.000000 0.000000 0.530707 0.029725           0.500000 0.000000 165.0  0.0 3.0 0.0
+bulkrnabert_litgenes       SGDClassifier  0.630952   0.025173 0.533333     0.632727 0.048041 0.599798 0.023654           0.583030 0.044974 104.4 60.6 1.4 1.6
+
+All Test Results (Datatype + Model)
+            Datatype               Model  Accuracy Precision Recall Specificity        F1   ROC AUC    PR AUC Balanced Accuracy       MCC    Confusion Matrix  TN  FP FN TP
+ bulkformer_litgenes Logistic Regression  0.952607       0.0    0.0    0.971014       0.0  0.722222  0.039896          0.485507 -0.023782  [[201, 6], [4, 0]] 201   6  4  0
+ bulkformer_litgenes       Random Forest  0.981043       0.0    0.0         1.0       0.0  0.493961  0.042801               0.5       0.0  [[207, 0], [4, 0]] 207   0  4  0
+ bulkformer_litgenes       SGDClassifier  0.763033  0.057692   0.75    0.763285  0.107143  0.756643  0.048009          0.756643  0.162433 [[158, 49], [1, 3]] 158  49  1  3
+ bulkformer_litgenes          Linear SVM  0.677725  0.042857   0.75    0.676329  0.081081  0.792271  0.060697          0.713164  0.123481 [[140, 67], [1, 3]] 140  67  1  3
+bulkrnabert_litgenes Logistic Regression  0.919431       0.0    0.0    0.937198       0.0  0.495169  0.023039          0.468599 -0.035619 [[194, 13], [4, 0]] 194  13  4  0
+bulkrnabert_litgenes       Random Forest  0.981043       0.0    0.0         1.0       0.0  0.443841  0.019805               0.5       0.0  [[207, 0], [4, 0]] 207   0  4  0
+bulkrnabert_litgenes       SGDClassifier  0.232227  0.012346    0.5    0.227053  0.024096   0.35628  0.015652          0.363527 -0.088153 [[47, 160], [2, 2]]  47 160  2  2
+bulkrnabert_litgenes          Linear SVM  0.966825       0.0    0.0    0.985507       0.0  0.507246  0.023286          0.492754 -0.016695  [[204, 3], [4, 0]] 204   3  4  0

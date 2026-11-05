@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "path": "data/literature/litgenes2_ensembl_ids.txt",
+      "template": "header of data/expression/X_litgenes2.csv",
+      "sha256": "85f9333f87969acc2784aacb2aba9b26ebc5991309c745a4589b2de8df3dab1d",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/gene_input_creation/hvg1000.py",
+      "template": "src/gene_input_creation/hvg.ipynb select_hvgs_bulk",
+      "sha256": "f9d0cd763dbfcfd2e28e33426940c6fc3d90b8de3fcd71edc73f6af4a4942cca",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/gene_input_creation/hvg10000.py",
+      "template": "src/gene_input_creation/hvg.ipynb select_hvgs_bulk",
+      "sha256": "ad58eed72cae3a26fe8c0e762e338e462e3af42369aebd39d568d708ae607485",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/gene_input_creation/create_litgenes1.py",
+      "template": "litgenes.py membership filtering",
+      "sha256": "fd6dd73eb06217c3f278cf93be306fa2e866e17b20a5acaa1a7b6b2e8ffe5ce9",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/gene_input_creation/create_litgenes2.py",
+      "template": "litgenes.py membership filtering; set 2 uses recovered saved header",
+      "sha256": "d671254a3e64f128a255490b0d469955e1b8f30ec27bc946bf305a660a67339d",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/embedding_creation/bfstuff/hvg1000bf.py",
+      "template": "src/embedding_creation/litgenesbformer.py",
+      "sha256": "8024ab74c10d496ce82e80abf782959f55583dc2b0137c3cf2f1d830f7ba0769",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/embedding_creation/brnabertstuff/hvg1000brnabert.py",
+      "template": "src/embedding_creation/brnabert.py",
+      "sha256": "9b5a2878347b8550f28d25715587164eacc8ead13fb58cd5734c27b51c0bd207",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/embedding_creation/bfstuff/hvg10000bf.py",
+      "template": "src/embedding_creation/litgenesbformer.py",
+      "sha256": "7a4053747da82ceee07d21421bf3417470cdf7ae7bf865762bde2bc0fee2e4a2",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/embedding_creation/brnabertstuff/hvg10000brnabert.py",
+      "template": "src/embedding_creation/brnabert.py",
+      "sha256": "5ca667125df1207008783d84a9afde64b508a76f08ab038d93d4b33922872133",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/embedding_creation/bfstuff/litgenesbf.py",
+      "template": "src/embedding_creation/litgenesbformer.py",
+      "sha256": "b890b6bd5946025f1606588d47b29f29558b8850c949fe4eb6ee7cd3fa28829b",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/embedding_creation/brnabertstuff/litgenesbrnabert.py",
+      "template": "src/embedding_creation/brnabert.py",
+      "sha256": "7fa906b94f2725d39a0145cd1ac516f3fd659a3cea29b1b7b497fe6e11a6934d",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/embedding_creation/bfstuff/litgenes2bf.py",
+      "template": "src/embedding_creation/litgenesbformer.py",
+      "sha256": "4a784751eb5a78db7961da5efff0a6d838650755a52a0f194b00373462bf86e8",
+      "status": "reconstructed"
+    },
+    {
+      "path": "src/embedding_creation/brnabertstuff/litgenes2brnabert.py",
+      "template": "src/embedding_creation/brnabert.py",
+      "sha256": "fb64ffc253ab305676ba498e3cd0758c004fa8a5b88b424660c11132b1c2f55a",
+      "status": "reconstructed"
+    }
+  ],
+  "embedding_matrix": [
+    {
+      "set": "hvg1000",
+      "model": "bf",
+      "script": "src/embedding_creation/bfstuff/hvg1000bf.py",
+      "input": "data/expression/X_hvg_1000.csv",
+      "output": "data/generated_embeddings/bfstuff/hvg1000.npy"
+    },
+    {
+      "set": "hvg1000",
+      "model": "brnabert",
+      "script": "src/embedding_creation/brnabertstuff/hvg1000brnabert.py",
+      "input": "data/expression/X_hvg_1000.csv",
+      "output": "data/generated_embeddings/brnabertstuff/hvg1000bert.npy"
+    },
+    {
+      "set": "hvg10000",
+      "model": "bf",
+      "script": "src/embedding_creation/bfstuff/hvg10000bf.py",
+      "input": "data/expression/X_hvg_10000.csv",
+      "output": "data/generated_embeddings/bfstuff/hvg10000.npy"
+    },
+    {
+      "set": "hvg10000",
+      "model": "brnabert",
+      "script": "src/embedding_creation/brnabertstuff/hvg10000brnabert.py",
+      "input": "data/expression/X_hvg_10000.csv",
+      "output": "data/generated_embeddings/brnabertstuff/hvg10000bert.npy"
+    },
+    {
+      "set": "litgenes",
+      "model": "bf",
+      "script": "src/embedding_creation/bfstuff/litgenesbf.py",
+      "input": "data/expression/X_litgenes.csv",
+      "output": "data/generated_embeddings/bfstuff/litgenesbrca.npy"
+    },
+    {
+      "set": "litgenes",
+      "model": "brnabert",
+      "script": "src/embedding_creation/brnabertstuff/litgenesbrnabert.py",
+      "input": "data/expression/X_litgenes.csv",
+      "output": "data/generated_embeddings/brnabertstuff/litgenesbert.npy"
+    },
+    {
+      "set": "litgenes2",
+      "model": "bf",
+      "script": "src/embedding_creation/bfstuff/litgenes2bf.py",
+      "input": "data/expression/X_litgenes2.csv",
+      "output": "data/generated_embeddings/bfstuff/litgenesbrca2.npy"
+    },
+    {
+      "set": "litgenes2",
+      "model": "brnabert",
+      "script": "src/embedding_creation/brnabertstuff/litgenes2brnabert.py",
+      "input": "data/expression/X_litgenes2.csv",
+      "output": "data/generated_embeddings/brnabertstuff/litgenesbert2.npy"
+    }
+  ]
+}

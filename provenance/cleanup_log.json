@@ -1,0 +1,74 @@
+{
+  "removed": [
+    {
+      "path": "src/embedding_creation/brnabert.py",
+      "bytes": 6731
+    },
+    {
+      "path": "src/embedding_creation/litgenesbformer.py",
+      "bytes": 16196
+    },
+    {
+      "path": "src/embedding_creation/litgenesbformer2.py",
+      "bytes": 16199
+    },
+    {
+      "path": "src/gene_input_creation/litgenes.py",
+      "bytes": 904
+    },
+    {
+      "path": "src/gene_input_creation/literature_signature_inspection_NOTE.txt",
+      "bytes": 160
+    },
+    {
+      "path": "figures\\regenerated\\figure2_breast_combined_cross_validation_metrics.png",
+      "bytes": 617949
+    },
+    {
+      "path": "figures\\regenerated\\figure2_breast_combined_cross_validation_metrics_feature_selection_key.png",
+      "bytes": 280690
+    },
+    {
+      "path": "third_party\\BulkFormer\\data\\bulkformer_gene_info.csv",
+      "bytes": 12835716
+    },
+    {
+      "path": "third_party/BulkFormer/data/gene_length_df.csv",
+      "bytes": 1619547
+    },
+    {
+      "path": "src\\results\\__pycache__\\build_grouped_results.cpython-314.pyc",
+      "bytes": 17781
+    }
+  ],
+  "moved": [
+    {
+      "from": "src/gene_input_creation/hvg.ipynb",
+      "to": "provenance/reference_notebooks/hvg.ipynb"
+    },
+    {
+      "from": "src/gene_input_creation/literature_signature_inspection.ipynb",
+      "to": "provenance/reference_notebooks/literature_signature_inspection.ipynb"
+    }
+  ],
+  "updated": [
+    "src/pipeline_paths.py",
+    "src\\embedding_creation\\bfstuff\\hvg10000bf.py",
+    "src\\embedding_creation\\bfstuff\\hvg1000bf.py",
+    "src\\embedding_creation\\bfstuff\\litgenes2bf.py",
+    "src\\embedding_creation\\bfstuff\\litgenesbf.py",
+    "src\\embedding_creation\\brnabertstuff\\hvg10000brnabert.py",
+    "src\\embedding_creation\\brnabertstuff\\hvg1000brnabert.py",
+    "src\\embedding_creation\\brnabertstuff\\litgenes2brnabert.py",
+    "src\\embedding_creation\\brnabertstuff\\litgenesbrnabert.py",
+    "src\\embedding_evaluation\\brcaeval_hvg1000.py",
+    "src\\embedding_evaluation\\brcaeval_hvg10000.py",
+    "src\\embedding_evaluation\\brcaeval_litgenes.py",
+    "src\\results\\build_grouped_results.py",
+    "src/embedding_creation/README.md",
+    "src/embedding_evaluation/README.md",
+    "src/gene_input_creation/README.md",
+    "README.md",
+    "requirements-analysis-reference.txt"
+  ]
+}

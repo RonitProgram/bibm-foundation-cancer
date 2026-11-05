@@ -1,0 +1,475 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 152
+  },
+  {
+    "path": "data\\embeddings\\bertstuff\\hvg10000bert.npy",
+    "bytes": 1910566784
+  },
+  {
+    "path": "data\\embeddings\\bertstuff\\hvg1000bert.npy",
+    "bytes": 199908736
+  },
+  {
+    "path": "data\\embeddings\\bertstuff\\litgenesbert.npy",
+    "bytes": 39282304
+  },
+  {
+    "path": "data\\embeddings\\bertstuff\\litgenesbert2.npy",
+    "bytes": 36860800
+  },
+  {
+    "path": "data\\embeddings\\bfstuff\\litgenesbrca.npy",
+    "bytes": 1261149680
+  },
+  {
+    "path": "data\\embeddings\\bfstuff\\litgenesbrca2.npy",
+    "bytes": 1099463840
+  },
+  {
+    "path": "data\\expression\\gProfiler_hsapiens_2026-07-30_17-08-56.csv",
+    "bytes": 23775
+  },
+  {
+    "path": "data\\expression\\X.csv",
+    "bytes": 366336650
+  },
+  {
+    "path": "data\\expression\\X_hvg_1000.csv",
+    "bytes": 18991264
+  },
+  {
+    "path": "data\\expression\\X_hvg_10000.csv",
+    "bytes": 190284640
+  },
+  {
+    "path": "data\\expression\\X_litgenes.csv",
+    "bytes": 1296453
+  },
+  {
+    "path": "data\\expression\\X_litgenes2.csv",
+    "bytes": 1097675
+  },
+  {
+    "path": "data\\expression\\yiv.csv",
+    "bytes": 4206
+  },
+  {
+    "path": "data\\literature\\litgenes2_ensembl_ids.txt",
+    "bytes": 2329,
+    "sha256": "85f9333f87969acc2784aacb2aba9b26ebc5991309c745a4589b2de8df3dab1d"
+  },
+  {
+    "path": "data\\literature\\pone.0126631.s001.xlsx",
+    "bytes": 35067
+  },
+  {
+    "path": "data\\model_assets\\BulkFormer_37M.pt",
+    "bytes": 53500146
+  },
+  {
+    "path": "data\\model_assets\\bulkformer_gene_info (1).csv",
+    "bytes": 12835716
+  },
+  {
+    "path": "data\\model_assets\\esm2_feature_concat (1).pt",
+    "bytes": 102452440
+  },
+  {
+    "path": "data\\model_assets\\G_tcga.pt",
+    "bytes": 5276395
+  },
+  {
+    "path": "data\\model_assets\\G_tcga_weight.pt",
+    "bytes": 1319659
+  },
+  {
+    "path": "data\\selection\\selected_features.txt",
+    "bytes": 83694,
+    "sha256": "8d42b2490a749aeb41307a7a197aa6b9ee624fab3b499098d25f7419ef2e08b2"
+  },
+  {
+    "path": "figures\\original\\figure2_breast_combined_cross_validation_metrics.png",
+    "bytes": 649889
+  },
+  {
+    "path": "figures\\original\\figure2_breast_combined_cross_validation_metrics_feature_selection_key.png",
+    "bytes": 327197
+  },
+  {
+    "path": "notebooks\\classification.ipynb",
+    "bytes": 636014,
+    "sha256": "ba68c3775c056216598bf38f7816ca6a9821b098fd9ae467abc07cdac6400ed1"
+  },
+  {
+    "path": "provenance\\cleanup_log.json",
+    "bytes": 2407,
+    "sha256": "70202d226f6593a15005434549512c39c896cd5b68a9930acd0b396507c4f0e0"
+  },
+  {
+    "path": "provenance\\cleanup_validation.json",
+    "bytes": 334,
+    "sha256": "a2a20efa1fb3f374e2a64355276b2dd4b202ce89a25a65c9bdbc891582fc6044"
+  },
+  {
+    "path": "provenance\\historical\\array_integrity.json",
+    "bytes": 1792,
+    "sha256": "335fb30358b986f947ca17e7b1a424c50ca260be42310b804e3326118b42aa2f"
+  },
+  {
+    "path": "provenance\\historical\\file_manifest.json",
+    "bytes": 23172,
+    "sha256": "cc6b3829644d4cb6418d2be2a11e5244289a12e5bafe68bcb5ff72ab6be326c4"
+  },
+  {
+    "path": "provenance\\historical\\plot_source.json",
+    "bytes": 420,
+    "sha256": "37461f72f3c1de917856b9e26b69723327dabe7d2658ef42ea9fca19a6c1da24"
+  },
+  {
+    "path": "provenance\\historical\\reconstructed_script_validation.json",
+    "bytes": 561,
+    "sha256": "a640dd2de795ac13eb49d01548c2ad886da919012a15cc2c79f96c0040228cee"
+  },
+  {
+    "path": "provenance\\historical\\reconstructed_scripts.json",
+    "bytes": 5539,
+    "sha256": "de34dd4a15fa2b4d9c779189082f546dafe466e8f37f2d7c149c8a2ede384427"
+  },
+  {
+    "path": "provenance\\historical\\source_reorganization.json",
+    "bytes": 2274,
+    "sha256": "3fab7dcc72ccaad7995ee1a74c34ca6c8f0baa762a91723660510715f45ac24c"
+  },
+  {
+    "path": "provenance\\historical\\validation.json",
+    "bytes": 772,
+    "sha256": "d720328637279f2d9450b6b2be50a2da511921f9bc6ba73ffbc0507479c63413"
+  },
+  {
+    "path": "provenance\\path_audit.json",
+    "bytes": 4260,
+    "sha256": "c7bb9e3d724a43c29a30ed9a8f8239c7f2e72b7b186f91c9e34298b0c65fbb02"
+  },
+  {
+    "path": "provenance\\pre_cleanup_sources.zip",
+    "bytes": 917377
+  },
+  {
+    "path": "provenance\\reference_notebooks\\hvg.ipynb",
+    "bytes": 798263,
+    "sha256": "fc99495740c029a21744eef6c8f56e3795d277b1847bc68c4888d516c51dbb3e"
+  },
+  {
+    "path": "provenance\\reference_notebooks\\literature_signature_inspection.ipynb",
+    "bytes": 15327,
+    "sha256": "daaeacb8597094785879b2ee7ad01754e525271f588e3c595c61a4536ea372f4"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4633,
+    "sha256": "26ff97d71750ea56851314ea57b5e12603a74a71f8afa978d05ac8a2a80731fe"
+  },
+  {
+    "path": "requirements-analysis-reference.txt",
+    "bytes": 244,
+    "sha256": "ae45dbf1d1289dadbf69ec6dbff61e98013cc7eb43ec642a2029804ac3f04973"
+  },
+  {
+    "path": "requirements-plotting.txt",
+    "bytes": 27,
+    "sha256": "0439d44e9ad46e0973369f03ca4b91cf1be5c7c2e2b366a99695a3f2beff6f44"
+  },
+  {
+    "path": "results\\raw_reports\\brcaresults_hvg1000.txt",
+    "bytes": 6515,
+    "sha256": "6d58270da18c87108ab3fd48480dafe465bbdc2be64c64581364d4fc0a40289f"
+  },
+  {
+    "path": "results\\raw_reports\\brcaresults_hvg10000.txt",
+    "bytes": 6462,
+    "sha256": "a1d756f1c3b8d3e4254e3a62af106dbda0d02c3a636aecea7ee5b9c86185c91b"
+  },
+  {
+    "path": "results\\raw_reports\\brcaresults_hvg10k156.txt",
+    "bytes": 6423,
+    "sha256": "a483fc343fb13242ff48b13384479decb043e2bacd296e19e02579d0434c2c8e"
+  },
+  {
+    "path": "results\\raw_reports\\brcaresults_hvg10k312.txt",
+    "bytes": 6438,
+    "sha256": "c330e4db76efb9057cbd3172f65fba7f0fa52d85b72875103dc3b19486a9ea5e"
+  },
+  {
+    "path": "results\\raw_reports\\brcaresults_hvg1k156.txt",
+    "bytes": 6446,
+    "sha256": "f81577a81f5b7c4bb040b4d05f0b60ec7110e3ade11a82b35768aecb7f5056f8"
+  },
+  {
+    "path": "results\\raw_reports\\brcaresults_hvg1k312.txt",
+    "bytes": 6446,
+    "sha256": "fa41e0825d10c04637586e91a154fe10f692f886476447db5ff186bcfe988687"
+  },
+  {
+    "path": "results\\raw_reports\\brcaresults_litgenes.txt",
+    "bytes": 6605,
+    "sha256": "a0a329f1cd367e061cc3c1f99f1cbad329ccf8bd60c4b4874ff365872b9043f0"
+  },
+  {
+    "path": "results\\raw_reports\\brcaresults_litgenes2.txt",
+    "bytes": 6594,
+    "sha256": "e4a40115f34d99b6ba5093ef4c48ff966cff21e347affe224b6942cdf5649801"
+  },
+  {
+    "path": "results\\tables\\cv_metrics_long_by_datatype_model.csv",
+    "bytes": 9445
+  },
+  {
+    "path": "results\\tables\\cv_metrics_mean_by_source_model.csv",
+    "bytes": 9214
+  },
+  {
+    "path": "src\\check_paths.py",
+    "bytes": 3589,
+    "sha256": "c3a13f82fb861b17006c85e2770b1b45f2f201b7b35d7045d0ef2190a817fd31"
+  },
+  {
+    "path": "src\\embedding_creation\\bfstuff\\hvg10000bf.py",
+    "bytes": 17744,
+    "sha256": "0f80ca047931b4a12a51bcd9acc0510f3cb521226d784701a8833abbc359b08f"
+  },
+  {
+    "path": "src\\embedding_creation\\bfstuff\\hvg1000bf.py",
+    "bytes": 17741,
+    "sha256": "f1ab89e5d184ffcc1d06f332077d22661c3be551be0afb7b962d3210d8fd3b8e"
+  },
+  {
+    "path": "src\\embedding_creation\\bfstuff\\litgenes2bf.py",
+    "bytes": 17754,
+    "sha256": "253547e62297fcc3190bb78631ec9ee51c45419c3a6f831b064139fdb20a488c"
+  },
+  {
+    "path": "src\\embedding_creation\\bfstuff\\litgenesbf.py",
+    "bytes": 17751,
+    "sha256": "012b1a3146536593a7261e250eeba085611974c373978a1e13c8978b8fbb4a0f"
+  },
+  {
+    "path": "src\\embedding_creation\\brnabertstuff\\hvg10000brnabert.py",
+    "bytes": 7995,
+    "sha256": "1b072bf35963ea4c6666bb1968df55bd3dd0ebeeea918c699237a35c540ca1dd"
+  },
+  {
+    "path": "src\\embedding_creation\\brnabertstuff\\hvg1000brnabert.py",
+    "bytes": 7993,
+    "sha256": "2234b976b2ff43a0972086d9b807e7b0bb119daf5cb41bfa427fe1720c719171"
+  },
+  {
+    "path": "src\\embedding_creation\\brnabertstuff\\litgenes2brnabert.py",
+    "bytes": 7996,
+    "sha256": "f41300216a6443175b6be1d228c4e2bd16e5c2eb4cfb68cdb0eb48217a4ed69f"
+  },
+  {
+    "path": "src\\embedding_creation\\brnabertstuff\\litgenesbrnabert.py",
+    "bytes": 7994,
+    "sha256": "a293042b9a472a5416bfac9d742ab897c1a78c719075322e375e2c9135f5e200"
+  },
+  {
+    "path": "src\\embedding_creation\\README.md",
+    "bytes": 795,
+    "sha256": "4200d92bdab84f16a78a10dfb1d30f3231214fa93c66c640ee5697787400b11e"
+  },
+  {
+    "path": "src\\embedding_evaluation\\brcaeval_hvg1000.py",
+    "bytes": 11881,
+    "sha256": "3061ea1cbebbc6727d9ee2a187785e8f0fa688cea2dfe503fa02527dd7d51bcb"
+  },
+  {
+    "path": "src\\embedding_evaluation\\brcaeval_hvg10000.py",
+    "bytes": 11885,
+    "sha256": "1d8598f87aaaa74172870a67aa3003ce2932b8211bd14bb52a06c62fddc23703"
+  },
+  {
+    "path": "src\\embedding_evaluation\\brcaeval_litgenes.py",
+    "bytes": 10080,
+    "sha256": "0870b04b71f484e2c28c08344d4f1ca8cd99136d4a673e044cd55fde251a7079"
+  },
+  {
+    "path": "src\\embedding_evaluation\\README.md",
+    "bytes": 658,
+    "sha256": "bab8ad6ec713ff955b945f7bbdfd4fba1c134653ced11c8e45d7bea3d7fc1d55"
+  },
+  {
+    "path": "src\\gene_input_creation\\create_litgenes1.py",
+    "bytes": 1144,
+    "sha256": "fd6dd73eb06217c3f278cf93be306fa2e866e17b20a5acaa1a7b6b2e8ffe5ce9"
+  },
+  {
+    "path": "src\\gene_input_creation\\create_litgenes2.py",
+    "bytes": 1190,
+    "sha256": "d671254a3e64f128a255490b0d469955e1b8f30ec27bc946bf305a660a67339d"
+  },
+  {
+    "path": "src\\gene_input_creation\\hvg1000.py",
+    "bytes": 2355,
+    "sha256": "f9d0cd763dbfcfd2e28e33426940c6fc3d90b8de3fcd71edc73f6af4a4942cca"
+  },
+  {
+    "path": "src\\gene_input_creation\\hvg10000.py",
+    "bytes": 2357,
+    "sha256": "ad58eed72cae3a26fe8c0e762e338e462e3af42369aebd39d568d708ae607485"
+  },
+  {
+    "path": "src\\gene_input_creation\\README.md",
+    "bytes": 479,
+    "sha256": "706ebdb0b9f3d5655d373768ff65575e48fe15215e0fe09815fffb7b28972c61"
+  },
+  {
+    "path": "src\\pipeline_paths.py",
+    "bytes": 890,
+    "sha256": "dbf4b53efe24fc250bcdb48a3de87a91604d3b83db5ad259c9558d5926a64434"
+  },
+  {
+    "path": "src\\plotting\\reproduce_brca_figure.py",
+    "bytes": 7661,
+    "sha256": "fb6ee28039084c2f15ee000236722a17ea03ea0fbd9ccc0fa345519ca579151c"
+  },
+  {
+    "path": "src\\results\\build_grouped_results.py",
+    "bytes": 12508,
+    "sha256": "cd421b902a3edf834ee77783d97c15dcec9bbeec3eeba3ad9a37148cddbedf05"
+  },
+  {
+    "path": "third_party\\BulkFormer\\bulkformer.yaml",
+    "bytes": 5104
+  },
+  {
+    "path": "third_party\\BulkFormer\\data\\README.md",
+    "bytes": 819,
+    "sha256": "1fe5465e68d1bdab69446804a58b47f780e3d5f3bacf59954d951b0537a07a06"
+  },
+  {
+    "path": "third_party\\BulkFormer\\LICENSE",
+    "bytes": 1068
+  },
+  {
+    "path": "third_party\\BulkFormer\\model\\config.py",
+    "bytes": 960,
+    "sha256": "34376d3062e725cb6479a00ce162b142ff9b13d2dc2e4d7814a0b0d1f6992a54"
+  },
+  {
+    "path": "third_party\\BulkFormer\\model\\README.md",
+    "bytes": 1424,
+    "sha256": "2991384a239e17c2db5a699f70854d6cbc3160bf7a515a3ad752b166b10965ca"
+  },
+  {
+    "path": "third_party\\BulkFormer\\README.md",
+    "bytes": 7547,
+    "sha256": "e57b496e9e77733b1d5a434d79512c9de22b2f0ffb7fdb5160a459bf9e2e9910"
+  },
+  {
+    "path": "third_party\\BulkFormer\\utils\\BulkFormer.py",
+    "bytes": 4777,
+    "sha256": "bb1778c38c6548f5b6eb0bfe995e45ee982245ac1fdafab370f93d5a1c6e25ea"
+  },
+  {
+    "path": "third_party\\BulkFormer\\utils\\BulkFormer_block.py",
+    "bytes": 1624,
+    "sha256": "da4c500344963f39ac076a805a9b3067093b7a67707f6652f1daf0c43be7bd56"
+  },
+  {
+    "path": "third_party\\BulkFormer\\utils\\README.md",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "third_party\\BulkFormer\\utils\\Rope.py",
+    "bytes": 623,
+    "sha256": "51e493bf011f28b91cb52f9fe1f18f5c3e4d1c12ef63e5bc400fe637b2f02f63"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\data\\bulkrnabert\\common_gene_id.txt",
+    "bytes": 304992,
+    "sha256": "ce44c2b58a3577878f43aa00fa4d940a090d678bd007f1dbd27ecb58c63d7ec5"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\config.py",
+    "bytes": 3271,
+    "sha256": "8b15030380350b20a689031ab7c9513887ebf00cb06f98efd4432307164e3046"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\layers.py",
+    "bytes": 1896,
+    "sha256": "5e70e4d89b6ed81329541c6be76fd5dbf9cd4078850a0b15536785f0c5ccf227"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\model.py",
+    "bytes": 6415,
+    "sha256": "31825537e7fa2a7862826bc9d04b43b6d69937c15dfac5d9f34ce22f33340226"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\preprocess.py",
+    "bytes": 5139,
+    "sha256": "e255042cacb6cdb13ca9f1bc3656831eaf61543747003ad9736c0fdaf51af33c"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\bulk_rna_bert\\pretrained.py",
+    "bytes": 3338,
+    "sha256": "91bafab3b7d642fea37ff56c9feafd440b8231eeb891b306091fe7fda788ed36"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\common\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\common\\config.py",
+    "bytes": 1040,
+    "sha256": "2cd7828bc08af7489ac7a8c8df1133c2af10dc05831ef0cabded36d854ed851e"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\common\\layers.py",
+    "bytes": 18859,
+    "sha256": "c84cd78a5d337f2d7be2094d6f8af90bede817e2161fe35bdf64a2737eadb338"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\common\\preprocess.py",
+    "bytes": 1390,
+    "sha256": "8de156e044069ae75be79fdc2e1e97c1053c014f51efe25337384b02645f78fd"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\common\\tokenizer.py",
+    "bytes": 7171,
+    "sha256": "e0ce8b424898b0155489979e005d5fc534ab1a29452b84d32837c90ea15c57ce"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\common\\type_defs.py",
+    "bytes": 834,
+    "sha256": "45120c6060ff76ea4843c5d628233a9c6fc01619de99261bd7db9f66bc6b9846"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\multiomics_open_research\\common\\utils.py",
+    "bytes": 1546,
+    "sha256": "de065e85fff0da3759615df50fd84d5010b6f0beb1ec33c0b8339e3515013685"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\README.md",
+    "bytes": 6746,
+    "sha256": "c875dbb022466dd81ebe66af303e9d44d9d8fdbb8f36c408ff03d774696403fc"
+  },
+  {
+    "path": "third_party\\multiomics-open-research\\setup.py",
+    "bytes": 1565,
+    "sha256": "a014cc11e39a3db2ed2c2d74c0c66bd9b6a1cb825d889b9253751cdaa76e14ab"
+  }
+]

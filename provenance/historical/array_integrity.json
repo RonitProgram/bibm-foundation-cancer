@@ -1,0 +1,98 @@
+[
+  {
+    "source": "breaststuff/hvg1000.npy",
+    "shape": [
+      1051,
+      742,
+      1923
+    ],
+    "dtype": "<f4",
+    "actual_bytes": 4130340864,
+    "expected_bytes": 5998544792,
+    "complete": false
+  },
+  {
+    "source": "breaststuff/hvg10000.npy",
+    "shape": [
+      1051,
+      7235,
+      1923
+    ],
+    "dtype": "<f4",
+    "actual_bytes": 4128243712,
+    "expected_bytes": 58489852748,
+    "complete": false
+  },
+  {
+    "source": "breaststuff/litgenesbrca.npy",
+    "shape": [
+      1051,
+      156,
+      1923
+    ],
+    "dtype": "<f4",
+    "actual_bytes": 1261149680,
+    "expected_bytes": 1261149680,
+    "complete": true
+  },
+  {
+    "source": "bertstuff/hvg1000bert.npy",
+    "shape": [
+      1051,
+      743,
+      64
+    ],
+    "dtype": "<f4",
+    "actual_bytes": 199908736,
+    "expected_bytes": 199908736,
+    "complete": true
+  },
+  {
+    "source": "bertstuff/hvg10000bert.npy",
+    "shape": [
+      1051,
+      7101,
+      64
+    ],
+    "dtype": "<f4",
+    "actual_bytes": 1910566784,
+    "expected_bytes": 1910566784,
+    "complete": true
+  },
+  {
+    "source": "bertstuff/litgenesbert.npy",
+    "shape": [
+      1051,
+      146,
+      64
+    ],
+    "dtype": "<f4",
+    "actual_bytes": 39282304,
+    "expected_bytes": 39282304,
+    "complete": true
+  },
+  {
+    "source": "litgenesbrca2.npy",
+    "shape": [
+      1051,
+      136,
+      1923
+    ],
+    "dtype": "<f4",
+    "actual_bytes": 1099463840,
+    "expected_bytes": 1099463840,
+    "complete": true
+  },
+  {
+    "source": "litgenesbert2.npy",
+    "shape": [
+      1051,
+      137,
+      64
+    ],
+    "dtype": "<f4",
+    "actual_bytes": 36860800,
+    "expected_bytes": 36860800,
+    "complete": true
+  }
+]
